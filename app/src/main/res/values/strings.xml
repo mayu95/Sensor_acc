@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Mayu</string>
+    <string name="text">hello mayu</string>
+    <string name="lin">on/off</string>
+    <string name="pause">PAUSE</string>
+    <string name="con">CONTI</string>
+
+</resources>

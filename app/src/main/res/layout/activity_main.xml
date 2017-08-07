@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.digital.mayu.MainActivity">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textView" />-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/status"-->
+            <!--android:layout_width="89dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_marginTop="37dp"-->
+            <!--android:layout_toRightOf="@+id/textView" />-->
+
+
+        <!--gps-->
+        <Button
+            android:id="@+id/btnStartRecord"
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="34dp"
+            android:background="@color/button3_color"
+            android:text="Record" />
+        <Button
+            android:id="@+id/btnStopRecord"
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="34dp"
+            android:background="@color/button2_color"
+            android:text="STOP" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="90dp"
+            android:background="@color/button2_color"
+            android:text="Clear" />
+        <Button
+            android:id="@+id/btnScreenShot"
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="146dp"
+            android:background="@color/button2_color"
+            android:text="Shot" />
+        <Button
+            android:id="@+id/btnScreenShotShare"
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="146dp"
+            android:background="@color/button2_color"
+            android:text="Share" />
+
+        <TextView
+            android:id="@+id/distanceView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="21dp" />
+
+        <Button
+            android:id="@+id/stop"
+            android:layout_width="68dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="90dp"
+            android:background="@color/button2_color"
+            android:text="@string/pause" />
+
+    </RelativeLayout>
+
+  <AbsoluteLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+      <LinearLayout
+          android:id="@+id/linearLayout1"
+          android:layout_width="240dp"
+          android:layout_height="140dp"
+          android:layout_x="10dp"
+          android:layout_y="365dp"
+          android:orientation="vertical" >
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/linearLayout2"
+          android:layout_width="240dp"
+          android:layout_height="140dp"
+          android:layout_x="10dp"
+          android:layout_y="211dp"
+          android:orientation="vertical">
+      </LinearLayout>
+
+      <LinearLayout
+          android:id="@+id/linearLayout3"
+          android:layout_width="240dp"
+          android:layout_height="140dp"
+          android:layout_x="10dp"
+          android:layout_y="61dp"
+          android:orientation="vertical">
+      </LinearLayout>
+
+  </AbsoluteLayout>
+
+
+
+</RelativeLayout>
